@@ -20,8 +20,7 @@ Shopez is a MERN stack-based e-commerce web application designed to deliver a sm
 
 ## 👨‍💻 Author
 
-**Manjunadh R**  
-B.Tech Student  
+**Manjunadh K**   
 GitHub: [@Manjunadh232005](https://github.com/Manjunadh232005)
 
 ## 🔗 GitHub Repository
