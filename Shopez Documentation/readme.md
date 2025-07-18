@@ -26,4 +26,4 @@ GitHub: [@Manjunadh232005](https://github.com/Manjunadh232005)
 
 ## 🔗 GitHub Repository
 
-Main Project Repository: [https://github.com/Manjunadh232005/SHOP](https://github.com/Manjunadh232005/SHOP)
+Main Project Repository: [https://github.com/Manjunadh232005/SHOPEZ](https://github.com/Manjunadh232005/SHOPEZ)
