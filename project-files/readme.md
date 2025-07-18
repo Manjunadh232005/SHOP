@@ -202,7 +202,7 @@ Make sure to create .env files in both client and server folders with appropriat
 👨‍💻 Name: Manjunadh
 🎓 Student: B.Tech
 🌐 GitHub: Manjunadh232005
-📁 Project Repository: SHOP - GitHub Link
+📁 Project Repository: SHOPEZ - GitHub Link
 
 📌 License
 This project is for academic and educational purposes.
