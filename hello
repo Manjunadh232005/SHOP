@@ -1,0 +1,90 @@
+If video-doc/ appears in the list, the folder has been successfully created.
+Now, if you'd like to move a video (like VID-20250704-WA0003.mp4) into the video-doc folder, run:
+
+bash
+Copy code
+mv VID-20250704-WA0003.mp4 video-doc/
+Let me know what you'd like to do next!
+
+
+
+
+
+
+
+
+Ask ChatGPT
+You said:
+no i will upload later now i want to commit the change of creation of folder
+
+
+ChatGPT said:
+Great! To commit the newly created folder (video-doc/) to your Git repository, follow these steps:
+
+✅ Step-by-step Git Commands:
+Stage the new folder (and any contents inside it, if any):
+
+bash
+Copy code
+git add video-doc/
+Commit the change with a message:
+
+bash
+Copy code
+git commit -m "Add video-doc folder for storing project videos"
+Push to GitHub:
+
+bash
+Copy code
+git push origin main
+💡 Note: If git push origin main fails again with a "fetch first" error, run this command first:
+
+bash
+Copy code
+git pull origin main --rebase
+Then push again:
+
+bash
+Copy code
+git push origin main
+Let me know once you've done this or if you want to add a video before committing.
+
+
+
+
+
+
+
+You said:
+it is not showing video doc folder when i am seeing in repo
+
+
+ChatGPT said:
+That's expected behavior in Git! 🧠
+Git does not track empty folders. So, if your video-doc/ folder has no files inside, Git will not commit or push it—even if you ran git add.
+
+✅ Solution: Add a placeholder file to track the folder
+You can add a dummy file (commonly .gitkeep) inside the folder to make Git track it.
+
+Run the following commands:
+bash
+Copy code
+touch video-doc/.gitkeep
+git add video-doc/.gitkeep
+git commit -m "Add video-doc folder with .gitkeep placeholder"
+git push origin main
+📦 After this:
+You’ll see the video-doc/ folder on GitHub.
+
+You can later remove .gitkeep when you add actual video files.
+
+Let me know once you've done it or if you'd like me to generate .gitkeep for other folders too!
+
+
+
+
+
+
+
+
+
